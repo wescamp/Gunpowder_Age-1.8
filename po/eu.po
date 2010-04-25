@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-04-26 01:56+0200\n"
+"PO-Revision-Date: 2010-04-26 01:56+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [era]: id=era_GPA_{GPA_VERSION}
+#: Gunpowder_Age/GPA_eras.cfg:5
+msgid "Gunpowder Age"
+msgstr ""
+
+#. [multiplayer_side]: id=GPA_Empire, type=GPA_King
+#: Gunpowder_Age/factions/Empire-GPA.cfg:5
+msgid "Empire"
+msgstr ""
+
+#. [heals]: id=rally2
+#: Gunpowder_Age/macros/abilities.cfg:7 Gunpowder_Age/macros/abilities.cfg:10
+msgid "Rallies+2"
+msgstr ""
+
+#. [heals]: id=rally2
+#: Gunpowder_Age/macros/abilities.cfg:9 Gunpowder_Age/macros/abilities.cfg:12
+msgid ""
+"Rallies+2:\n"
+"Allied units next to this unit recover 2 hp at the start of your turn. Does "
+"not cure poison."
+msgstr ""
+
+#. [heals]: id=rally4
+#: Gunpowder_Age/macros/abilities.cfg:26 Gunpowder_Age/macros/abilities.cfg:29
+msgid "Rallies+4"
+msgstr ""
+
+#. [heals]: id=rally4
+#: Gunpowder_Age/macros/abilities.cfg:28 Gunpowder_Age/macros/abilities.cfg:31
+msgid ""
+"Rallies+4:\n"
+"Allied units next to this unit recover 4 hp at the start of your turn. Does "
+"not cure poison."
+msgstr ""
+
+#. [heals]: id=rally6
+#: Gunpowder_Age/macros/abilities.cfg:45 Gunpowder_Age/macros/abilities.cfg:48
+msgid "Rallies+6"
+msgstr ""
+
+#. [heals]: id=rally6
+#: Gunpowder_Age/macros/abilities.cfg:47 Gunpowder_Age/macros/abilities.cfg:50
+msgid ""
+"Rallies+6:\n"
+"Allied units next to this unit recover 6 hp at the start of your turn. Does "
+"not cure poison."
+msgstr ""
+
+#. [heals]: id=medic
+#: Gunpowder_Age/macros/abilities.cfg:64
+msgid "heals+4,cures"
+msgstr ""
+
+#. [heals]: id=medic
+#: Gunpowder_Age/macros/abilities.cfg:65
+msgid "Heals friendly adjacent units and cures."
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Gunpowder_Age/macros/abilities.cfg:80
+msgid "inspire"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Gunpowder_Age/macros/abilities.cfg:84
+msgid ""
+"Inspire:\n"
+"This unit can inspire friendly units that are next to it, making them fight "
+"better.\n"
+"\n"
+"Adjacent friendly level 1 units will do 10% more damage in battle; adjacent "
+"level 0 will do +25% in battle. Does not work on other ensigns"
+msgstr ""
+
+#. [advancement]: id=monster
+#: Gunpowder_Age/macros/general_utils.cfg:221
+msgid "Max HP bonus +5, +1 damage to all attacks, max XP +25%"
+msgstr ""
+
+#. [attacks]: id=sabotage
+#: Gunpowder_Age/macros/specials.cfg:6
+msgid "sabotage"
+msgstr ""
+
+#. [attacks]: id=sabotage
+#: Gunpowder_Age/macros/specials.cfg:7
+msgid ""
+"To use this attack you must backstab. If it hits it will slow the enemy down"
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: Gunpowder_Age/macros/specials.cfg:18 Gunpowder_Age/macros/specials.cfg:21
+msgid "counter"
+msgstr ""
+
+#. [chance_to_hit]: id=counter
+#: Gunpowder_Age/macros/specials.cfg:20 Gunpowder_Age/macros/specials.cfg:23
+msgid ""
+"Counter:\n"
+"When used defensively, this attack always has at least a 60% chance to hit."
+msgstr ""
+
+#. [unit_type]: id=GPA_King, race=human
+#: Gunpowder_Age/units/ZKing.cfg:4
+msgid "King"
+msgstr ""
+
+#. [unit_type]: id=GPA_King, race=human
+#: Gunpowder_Age/units/ZKing.cfg:29
+msgid "Nations are still led by kings."
+msgstr ""
+
+#. [attack]: type=blade
+#: Gunpowder_Age/units/ZKing.cfg:35
+msgid "sword"
+msgstr ""
+
+#. [unit_type]: id=GPA_Infantry, race=human
+#: Gunpowder_Age/units/a1Infantry.cfg:5
+msgid "Infantry"
+msgstr ""
+
+#. [unit_type]: id=GPA_Infantry, race=human
+#: Gunpowder_Age/units/a1Infantry.cfg:19
+msgid ""
+"Trained infantry are an effective force that can fight in a number of ways. "
+"They are unskilled at fighting in forest because it removes strength their "
+"formation gives them."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/a1Infantry.cfg:24
+msgid "Engage"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/a1Infantry.cfg:36
+msgid "Charge"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/a1Infantry.cfg:48
+msgid "Flank"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/a1Infantry.cfg:60
+msgid "Snipe"
+msgstr ""
