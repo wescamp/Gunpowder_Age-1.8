@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-30 19:59+0200\n"
+"POT-Creation-Date: 2010-10-03 13:04+0200\n"
 "PO-Revision-Date: 2010-04-26 01:56+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -85,6 +86,20 @@ msgid ""
 "level 0 will do +25% in battle. Does not work on other ensigns"
 msgstr ""
 
+#. [dummy]: id=ability_gpa_transport
+#: Gunpowder_Age/macros/abilities.cfg:113
+#: Gunpowder_Age/macros/abilities.cfg:114
+msgid "transport"
+msgstr ""
+
+#. [dummy]: id=ability_gpa_transport
+#: Gunpowder_Age/macros/abilities.cfg:115
+#: Gunpowder_Age/macros/abilities.cfg:116
+msgid ""
+"When this unit is moved onto land it will turn into whatever type of troop "
+"it carries."
+msgstr ""
+
 #. [advancement]: id=monster
 #: Gunpowder_Age/macros/general_utils.cfg:221
 msgid "Max HP bonus +5, +1 damage to all attacks, max XP +25%"
@@ -125,17 +140,17 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: Gunpowder_Age/units/a1Infantry.cfg:24 Gunpowder_Age/units/ZKing.cfg:35
+#: Gunpowder_Age/units/a1Infantry.cfg:23 Gunpowder_Age/units/ZKing.cfg:35
 msgid "Engage"
 msgstr ""
 
 #. [unit_type]: id=GPA_Infantry, race=human
-#: Gunpowder_Age/units/a1Infantry.cfg:5
+#: Gunpowder_Age/units/a1Infantry.cfg:4
 msgid "Infantry"
 msgstr ""
 
 #. [unit_type]: id=GPA_Infantry, race=human
-#: Gunpowder_Age/units/a1Infantry.cfg:19
+#: Gunpowder_Age/units/a1Infantry.cfg:18
 msgid ""
 "Trained infantry are an effective force that can fight in a number of ways. "
 "They are unskilled at fighting in forest because it removes strength their "
@@ -143,16 +158,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:36
+#: Gunpowder_Age/units/a1Infantry.cfg:35
 msgid "Charge"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:48
+#: Gunpowder_Age/units/a1Infantry.cfg:47
 msgid "Flank"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:60
+#: Gunpowder_Age/units/a1Infantry.cfg:59
 msgid "Snipe"
 msgstr ""
