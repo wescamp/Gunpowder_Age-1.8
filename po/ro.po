@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-10-03 13:04+0200\n"
+"POT-Creation-Date: 2011-01-23 19:25+0100\n"
 "PO-Revision-Date: 2010-04-26 01:56+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -98,13 +98,39 @@ msgstr ""
 #: Gunpowder_Age/macros/abilities.cfg:115
 #: Gunpowder_Age/macros/abilities.cfg:116
 msgid ""
-"When this unit is moved onto land it will turn into whatever type of troop "
-"it carries."
+"This unit can carry other (non-mechanical) units including your leader. To "
+"load a unit onto a transport right click on it while it is adjacent to an "
+"unloaded transport. To unload a transport right click on an empty hex aside "
+"a loaded transport."
 msgstr ""
 
-#. [advancement]: id=monster
-#: Gunpowder_Age/macros/general_utils.cfg:221
-msgid "Max HP bonus +5, +1 damage to all attacks, max XP +25%"
+#. [set_menu_item]: id=load transport
+#: Gunpowder_Age/macros/general_utils.cfg:12
+#: Gunpowder_Age/macros/abilities.cfg:133
+msgid "Load into transport"
+msgstr ""
+
+#. [unstore_unit]
+#: Gunpowder_Age/macros/general_utils.cfg:66
+#: Gunpowder_Age/macros/abilities.cfg:203
+msgid "loaded $transport.variables.cargo.name"
+msgstr ""
+
+#. [set_menu_item]: id=unload transport
+#: Gunpowder_Age/macros/general_utils.cfg:76
+#: Gunpowder_Age/macros/abilities.cfg:213
+msgid "Unload transport"
+msgstr ""
+
+#. [unstore_unit]
+#: Gunpowder_Age/macros/general_utils.cfg:119
+#: Gunpowder_Age/macros/abilities.cfg:270
+msgid "unloaded $transport.variables.cargo.name"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Gunpowder_Age/macros/general_utils.cfg:8
+msgid "Testing"
 msgstr ""
 
 #. [attacks]: id=sabotage
@@ -130,12 +156,124 @@ msgid ""
 "When used defensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 
-#. [unit_type]: id=GPA_King, race=human
+#. [trait]: id=gunpowder_trained
+#: Gunpowder_Age/units/1_race.cfg:7
+msgid "trained"
+msgstr ""
+
+#. [trait]: id=gunpowder_trained
+#: Gunpowder_Age/units/1_race.cfg:8
+msgid "female^trained"
+msgstr ""
+
+#. [trait]: id=gunpowder_trained
+#: Gunpowder_Age/units/1_race.cfg:9
+msgid ""
+"The members of this unit have put additional effort into preparing "
+"themselves and as such are more adept at dealing damage. (like strong except "
+"no bonus hp)"
+msgstr ""
+
+#. [trait]: id=gunpowder_accurate
+#: Gunpowder_Age/units/1_race.cfg:20
+msgid "accurate"
+msgstr ""
+
+#. [trait]: id=gunpowder_accurate
+#: Gunpowder_Age/units/1_race.cfg:21
+msgid "female^accurate"
+msgstr ""
+
+#. [trait]: id=gunpowder_accurate
+#: Gunpowder_Age/units/1_race.cfg:22
+msgid ""
+"The members of this unit have especially good aim and as such are more extra "
+"effective at long distance. (identical to dexterous)"
+msgstr ""
+
+#. [trait]: id=gunpowder_subtle
+#: Gunpowder_Age/units/1_race.cfg:33
+msgid "subtle"
+msgstr ""
+
+#. [trait]: id=gunpowder_subtle
+#: Gunpowder_Age/units/1_race.cfg:34
+msgid "female^subtle"
+msgstr ""
+
+#. [trait]: id=gunpowder_subtle
+#: Gunpowder_Age/units/1_race.cfg:35
+msgid ""
+"This unit is good at discovering peoples secrets and how best to damage them."
+msgstr ""
+
+#. [trait]: id=gunpowder_disciplined
+#: Gunpowder_Age/units/1_race.cfg:46
+msgid "disciplined"
+msgstr ""
+
+#. [trait]: id=gunpowder_disciplined
+#: Gunpowder_Age/units/1_race.cfg:47
+msgid "female^disciplined"
+msgstr ""
+
+#. [trait]: id=gunpowder_disciplined
+#: Gunpowder_Age/units/1_race.cfg:48
+msgid ""
+"The members of this unit have a mental resilience that makes them more "
+"difficult to break. (similar to resilient but gives 3 base hp +2 per level)"
+msgstr ""
+
+#. [trait]: id=gunpowder_promising
+#: Gunpowder_Age/units/1_race.cfg:63
+msgid "promising"
+msgstr ""
+
+#. [trait]: id=gunpowder_promising
+#: Gunpowder_Age/units/1_race.cfg:64
+msgid "female^promising"
+msgstr ""
+
+#. [trait]: id=gunpowder_promising
+#: Gunpowder_Age/units/1_race.cfg:65
+msgid ""
+"The members of this unit show great potential to advance. (like intelligent "
+"but grants an additional hit point)"
+msgstr ""
+
+#. [race]: id=GunpowderHuman
+#. [race]: id=GunpowderHumanNR # NR stands for no range.
+#. [race]: id=GunpowderHumanS # S stands for no spy.
+#: Gunpowder_Age/units/1_race.cfg:79 Gunpowder_Age/units/1_race.cfg:94
+#: Gunpowder_Age/units/1_race.cfg:108
+msgid "race^GPA_Human"
+msgstr ""
+
+#. [race]: id=GunpowderHuman
+#. [race]: id=GunpowderHumanNR # NR stands for no range.
+#. [race]: id=GunpowderHumanS # S stands for no spy.
+#: Gunpowder_Age/units/1_race.cfg:80 Gunpowder_Age/units/1_race.cfg:95
+#: Gunpowder_Age/units/1_race.cfg:109
+msgid "race^GPA_Humans"
+msgstr ""
+
+#. [race]: id=GunpowderHuman
+#. [race]: id=GunpowderHumanNR # NR stands for no range.
+#. [race]: id=GunpowderHumanS # S stands for no spy.
+#: Gunpowder_Age/units/1_race.cfg:83 Gunpowder_Age/units/1_race.cfg:98
+#: Gunpowder_Age/units/1_race.cfg:112
+msgid ""
+"The men who fight these wars can be called either extraordinary or ordinary "
+"depending on your view but either way you can count on them to follow the "
+"orders you give them to whatever end it takes them."
+msgstr ""
+
+#. [unit_type]: id=GPA_King, race=GunpowderHuman
 #: Gunpowder_Age/units/ZKing.cfg:4
 msgid "King"
 msgstr ""
 
-#. [unit_type]: id=GPA_King, race=human
+#. [unit_type]: id=GPA_King, race=GunpowderHuman
 #: Gunpowder_Age/units/ZKing.cfg:29
 msgid "Nations are still led by kings."
 msgstr ""
@@ -146,12 +284,12 @@ msgstr ""
 msgid "Engage"
 msgstr ""
 
-#. [unit_type]: id=GPA_Infantry, race=human
+#. [unit_type]: id=GPA_Infantry, race=GunpowderHuman
 #: Gunpowder_Age/units/a1Infantry.cfg:4
 msgid "Infantry"
 msgstr ""
 
-#. [unit_type]: id=GPA_Infantry, race=human
+#. [unit_type]: id=GPA_Infantry, race=GunpowderHuman
 #: Gunpowder_Age/units/a1Infantry.cfg:18
 msgid ""
 "Trained infantry are an effective force that can fight in a number of ways. "
@@ -159,7 +297,7 @@ msgid ""
 "formation gives them."
 msgstr ""
 
-#. [attack]: type=pierce
+#. [attack]: type=blade
 #: Gunpowder_Age/units/a1Infantry.cfg:35
 msgid "Charge"
 msgstr ""
