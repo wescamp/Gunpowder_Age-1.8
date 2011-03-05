@@ -9,3 +9,8 @@ Version 1.3.5: Changes since version 1
 -Extensive Balance tweaks
 -Transports reworked
 -Unit ids reworked (units now listed by general class)
+
+1.3.6
+-Some bug fixes
+-Charge attacks now have the overrun quality.
+-A couple minor tweaks
