@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-01-23 19:25+0100\n"
+"POT-Creation-Date: 2011-03-11 18:42+0100\n"
 "PO-Revision-Date: 2010-04-26 01:56+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -156,6 +156,18 @@ msgid ""
 "When used defensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 
+#. [attacks]: id=weapon_special_GPA_Overrun
+#: Gunpowder_Age/macros/specials.cfg:33
+msgid "overrun"
+msgstr ""
+
+#. [attacks]: id=weapon_special_GPA_Overrun
+#: Gunpowder_Age/macros/specials.cfg:34
+msgid ""
+"If you kill an enemy with an attack with overrun, you advance into the "
+"targets hex."
+msgstr ""
+
 #. [trait]: id=gunpowder_trained
 #: Gunpowder_Age/units/1_race.cfg:7
 msgid "trained"
@@ -274,22 +286,22 @@ msgid "King"
 msgstr ""
 
 #. [unit_type]: id=GPA_King, race=GunpowderHuman
-#: Gunpowder_Age/units/ZKing.cfg:29
+#: Gunpowder_Age/units/ZKing.cfg:28
 msgid "Nations are still led by kings."
 msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: Gunpowder_Age/units/a1Infantry.cfg:23 Gunpowder_Age/units/ZKing.cfg:35
+#: Gunpowder_Age/units/a1Infantry.cfg:23 Gunpowder_Age/units/ZKing.cfg:34
 msgid "Engage"
 msgstr ""
 
-#. [unit_type]: id=GPA_Infantry, race=GunpowderHuman
+#. [unit_type]: id=GPA_A1_Infantry, race=GunpowderHuman
 #: Gunpowder_Age/units/a1Infantry.cfg:4
 msgid "Infantry"
 msgstr ""
 
-#. [unit_type]: id=GPA_Infantry, race=GunpowderHuman
+#. [unit_type]: id=GPA_A1_Infantry, race=GunpowderHuman
 #: Gunpowder_Age/units/a1Infantry.cfg:18
 msgid ""
 "Trained infantry are an effective force that can fight in a number of ways. "
@@ -298,16 +310,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Gunpowder_Age/units/a1Infantry.cfg:35
+#: Gunpowder_Age/units/a1Infantry.cfg:36
 msgid "Charge"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:47
+#: Gunpowder_Age/units/a1Infantry.cfg:48
 msgid "Flank"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:59
+#: Gunpowder_Age/units/a1Infantry.cfg:60
 msgid "Snipe"
 msgstr ""
