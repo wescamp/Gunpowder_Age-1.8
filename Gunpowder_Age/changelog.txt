@@ -14,3 +14,9 @@ Version 1.3.5: Changes since version 1
 -Some bug fixes
 -Charge attacks now have the overrun quality.
 -A couple minor tweaks
+
+1.3.7
+-Fixed bugs caused by unit id's being reworked.
+
+1.3.8
+-Yet another quick fix to stop the spies from sabotaging when they poison.
