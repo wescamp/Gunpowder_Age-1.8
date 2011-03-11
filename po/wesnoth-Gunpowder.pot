@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-03-11 18:42+0100\n"
+"POT-Creation-Date: 2011-03-11 20:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,7 +159,7 @@ msgstr ""
 
 #. [trait]: id=gunpowder_trained
 #: ./Gunpowder_Age/units/1_race.cfg:9
-msgid "The members of this unit have put additional effort into preparing themselves and as such are more adept at dealing damage. (like strong except no bonus hp)"
+msgid "The members of this unit have put additional effort into preparing themselves and as such are more adept at dealing damage."
 msgstr ""
 
 #. [trait]: id=gunpowder_accurate
@@ -174,7 +174,7 @@ msgstr ""
 
 #. [trait]: id=gunpowder_accurate
 #: ./Gunpowder_Age/units/1_race.cfg:22
-msgid "The members of this unit have especially good aim and as such are more extra effective at long distance. (identical to dexterous)"
+msgid "The members of this unit have especially good aim and as such are more extra effective at long distance."
 msgstr ""
 
 #. [trait]: id=gunpowder_subtle
@@ -204,7 +204,7 @@ msgstr ""
 
 #. [trait]: id=gunpowder_disciplined
 #: ./Gunpowder_Age/units/1_race.cfg:48
-msgid "The members of this unit have a mental resilience that makes them more difficult to break. (similar to resilient but gives 3 base hp +2 per level)"
+msgid "The members of this unit have a mental resilience that makes them more difficult to break."
 msgstr ""
 
 #. [trait]: id=gunpowder_promising
@@ -219,7 +219,7 @@ msgstr ""
 
 #. [trait]: id=gunpowder_promising
 #: ./Gunpowder_Age/units/1_race.cfg:65
-msgid "The members of this unit show great potential to advance. (like intelligent but grants an additional hit point)"
+msgid "The members of this unit show great potential to advance."
 msgstr ""
 
 #. [race]: id=GunpowderHuman
@@ -249,13 +249,13 @@ msgid "King"
 msgstr ""
 
 #. [unit_type]: id=GPA_King, race=GunpowderHuman
-#: ./Gunpowder_Age/units/ZKing.cfg:28
+#: ./Gunpowder_Age/units/ZKing.cfg:29
 msgid "Nations are still led by kings."
 msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: ./Gunpowder_Age/units/a1Infantry.cfg:23 ./Gunpowder_Age/units/ZKing.cfg:34
+#: ./Gunpowder_Age/units/a1Infantry.cfg:23 ./Gunpowder_Age/units/ZKing.cfg:35
 msgid "Engage"
 msgstr ""
 
