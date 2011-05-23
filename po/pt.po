@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-03-11 20:23+0100\n"
+"POT-Creation-Date: 2011-05-23 19:57+0200\n"
 "PO-Revision-Date: 2010-04-26 01:56+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,17 +17,22 @@ msgstr ""
 msgid "Gunpowder Age"
 msgstr ""
 
+#. [language]
+#: Gunpowder_Age/_main.cfg:13
+msgid "secret"
+msgstr ""
+
 #. [multiplayer_side]: id=GPA_Empire, type=GPA_King
 #: Gunpowder_Age/factions/Empire-GPA.cfg:5
 msgid "Empire"
 msgstr ""
 
-#. [heals]: id=rally2
+#. [heals]: id=rally2GPA_EN1_Transport
 #: Gunpowder_Age/macros/abilities.cfg:7 Gunpowder_Age/macros/abilities.cfg:10
 msgid "Rallies+2"
 msgstr ""
 
-#. [heals]: id=rally2
+#. [heals]: id=rally2GPA_EN1_Transport
 #: Gunpowder_Age/macros/abilities.cfg:9 Gunpowder_Age/macros/abilities.cfg:12
 msgid ""
 "Rallies+2:\n"
@@ -100,30 +105,31 @@ msgid ""
 "This unit can carry other (non-mechanical) units including your leader. To "
 "load a unit onto a transport right click on it while it is adjacent to an "
 "unloaded transport. To unload a transport right click on an empty hex aside "
-"a loaded transport."
+"a loaded transport. Units that have attacked or captured villages may not be "
+"loaded."
 msgstr ""
 
 #. [set_menu_item]: id=load transport
 #: Gunpowder_Age/macros/general_utils.cfg:12
-#: Gunpowder_Age/macros/abilities.cfg:133
+#: Gunpowder_Age/macros/abilities.cfg:158
 msgid "Load into transport"
 msgstr ""
 
 #. [unstore_unit]
 #: Gunpowder_Age/macros/general_utils.cfg:66
-#: Gunpowder_Age/macros/abilities.cfg:203
+#: Gunpowder_Age/macros/abilities.cfg:234
 msgid "loaded $transport.variables.cargo.name"
 msgstr ""
 
 #. [set_menu_item]: id=unload transport
 #: Gunpowder_Age/macros/general_utils.cfg:76
-#: Gunpowder_Age/macros/abilities.cfg:213
+#: Gunpowder_Age/macros/abilities.cfg:250
 msgid "Unload transport"
 msgstr ""
 
 #. [unstore_unit]
 #: Gunpowder_Age/macros/general_utils.cfg:119
-#: Gunpowder_Age/macros/abilities.cfg:270
+#: Gunpowder_Age/macros/abilities.cfg:307
 msgid "unloaded $transport.variables.cargo.name"
 msgstr ""
 
@@ -276,6 +282,40 @@ msgid ""
 "orders you give them to whatever end it takes them."
 msgstr ""
 
+#. [unit_type]: id=GPA_AA1_Infantry, race=GunpowderHuman
+#: Gunpowder_Age/units/Aa1Infantry.cfg:4
+msgid "Infantry"
+msgstr ""
+
+#. [unit_type]: id=GPA_AA1_Infantry, race=GunpowderHuman
+#: Gunpowder_Age/units/Aa1Infantry.cfg:18
+msgid ""
+"Trained infantry are an effective force that can fight in a number of ways. "
+"They are unskilled at fighting in forest because it removes strength their "
+"formation gives them."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/ZKing.cfg:35 Gunpowder_Age/units/Aa1Infantry.cfg:23
+msgid "Engage"
+msgstr ""
+
+#. [attack]: type=blade
+#: Gunpowder_Age/units/Aa1Infantry.cfg:35
+msgid "Charge"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/Aa1Infantry.cfg:48
+msgid "Flank"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Gunpowder_Age/units/Aa1Infantry.cfg:60
+msgid "Snipe"
+msgstr ""
+
 #. [unit_type]: id=GPA_King, race=GunpowderHuman
 #: Gunpowder_Age/units/ZKing.cfg:4
 msgid "King"
@@ -284,38 +324,4 @@ msgstr ""
 #. [unit_type]: id=GPA_King, race=GunpowderHuman
 #: Gunpowder_Age/units/ZKing.cfg:29
 msgid "Nations are still led by kings."
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=blade
-#: Gunpowder_Age/units/a1Infantry.cfg:23 Gunpowder_Age/units/ZKing.cfg:35
-msgid "Engage"
-msgstr ""
-
-#. [unit_type]: id=GPA_A1_Infantry, race=GunpowderHuman
-#: Gunpowder_Age/units/a1Infantry.cfg:4
-msgid "Infantry"
-msgstr ""
-
-#. [unit_type]: id=GPA_A1_Infantry, race=GunpowderHuman
-#: Gunpowder_Age/units/a1Infantry.cfg:18
-msgid ""
-"Trained infantry are an effective force that can fight in a number of ways. "
-"They are unskilled at fighting in forest because it removes strength their "
-"formation gives them."
-msgstr ""
-
-#. [attack]: type=blade
-#: Gunpowder_Age/units/a1Infantry.cfg:36
-msgid "Charge"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:48
-msgid "Flank"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Gunpowder_Age/units/a1Infantry.cfg:60
-msgid "Snipe"
 msgstr ""
